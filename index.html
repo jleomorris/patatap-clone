@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circles</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="container main-content">
+
+		<div class="row">
+			<div class="col-md-3 title-icon">
+				<i id="play-icon" class="far fa-play-circle"></i>
+			</div>
+			<div class="col-md-9">
+				<h1 class="title">Patatap Clone</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="main-content">Press a letter key to play a note.</h2>
+			</div>
+		</div>
+
+	</div>
+	
+		<canvas id="myCanvas" resize></canvas>
+		<script type="text/javascript" src="paper-full.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+		<script src="main.js" type="text/paperscript" canvas="myCanvas"></script>
+</body>
+
+</html>
